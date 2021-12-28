@@ -153,6 +153,12 @@ a {
     text-align: center;
 }
 
+@media (min-width: 1200px) {
+    .btn {
+        padding: 0.938rem 0;
+    }
+}
+
 .btn:hover {
     background-color: var(--softMagenta);
     color: #ffffff;
