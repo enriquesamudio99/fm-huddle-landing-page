@@ -28,10 +28,11 @@ body {
 
 @media (min-width: 1200px) {
     body {
+        padding: 3.75rem 0 2.5rem;
         height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         background-image: url(../img/bg-desktop.svg);
         background-repeat: no-repeat;
         background-position: left -5% center;
